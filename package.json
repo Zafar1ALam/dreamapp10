@@ -1,0 +1,59 @@
+{
+  "name": "dreamDrApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.17",
+    "@react-native-community/datetimepicker": "^5.1.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-picker/picker": "^2.2.1",
+    "@react-navigation/material-top-tabs": "^6.0.6",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-appearance": "^0.3.4",
+    "react-native-awesome-alerts": "^1.5.2",
+    "react-native-chart-kit": "^6.11.0",
+    "react-native-confirmation-code-field": "^7.3.0",
+    "react-native-dropdown-picker": "^5.3.0",
+    "react-native-eject": "^0.1.2",
+    "react-native-localization": "^2.2.0",
+    "react-native-localize": "^2.1.7",
+    "react-native-pager-view": "^5.4.9",
+    "react-native-paper": "^4.11.1",
+    "react-native-paper-dropdown": "^1.0.7",
+    "react-native-raw-bottom-sheet": "^2.2.0",
+    "react-native-restart": "0.0.24",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-sweet-alert": "^3.5.0",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-video": "^5.2.0",
+    "react-native-video-player": "^0.12.0",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/runtime": "^7.16.7",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.6.0",
+    "jest": "^27.4.7",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
